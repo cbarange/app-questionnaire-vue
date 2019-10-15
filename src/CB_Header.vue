@@ -1,13 +1,12 @@
 <template>
-  <div id="app">
-    JE SUIS LE APP COMPONENT
-    <router-view/>
+  <div id="cb_header">
+    JE SUIS LE HEADER COMPONENT
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'CB_Header',
   data () {
     return {
     }
@@ -20,7 +19,7 @@ export default {
 </script>
 
 <style>
-#app {
+#cb_header {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
