@@ -17,7 +17,8 @@ var cb_vm_app = new Vue({
   el: '#app',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  data:{cb_personne: { cb_nom: null, cb_prenom: null, cb_entreprise: null }}
 })
 
 // Component CB_Header [15/10/2019]

@@ -1,25 +1,44 @@
 <template>
   <div>
-    REGISTER
     <div class="RegisterBox">
-      <div class="RegisterNom">
-
-      </div>
-      <div class="RegisterPrenom">
-
-      </div>
-      <div class="RegisterEntreprise">
-
-      </div>
+      <md-card>
+        <md-card-content>
+          <div class="RegisterPrenom">
+            <md-field>
+              <label>Prénom</label>
+              <md-input v-model="$root.cb_personne.cb_prenom" md-counter="50"></md-input>
+            </md-field>
+          </div>
+          <div class="RegisterNom">
+            <md-field>
+              <label>Nom</label>
+              <md-input v-model="$root.cb_personne.cb_nom" md-counter="50"></md-input>
+            </md-field>
+          </div>
+          <div class="RegisterEntreprise">
+            <md-field>
+              <label>Entreprise</label>
+              <md-input v-model="$root.cb_personne.cb_entreprise" md-counter="50"></md-input>
+            </md-field>
+          </div>
+        </md-card-content>
+        <md-card-actions>
+          <router-link to="/question"><md-button class="md-raised md-primary">Valider</md-button></router-link>
+        </md-card-actions>
+      </md-card>
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'CB_Register',
+  // props: ['cb_routerProps'],
   data () {
-    return {}
+    return {
+      // cb_nom_register: $root.cb_vm_app.cb_personne.cb_nom
+    }
   },
   methods: {},
   created: function () {},
@@ -29,5 +48,8 @@ export default {
 </script>
 
 <style scoped>
-
+.RegisterBox{
+  width: 30%;
+  margin: 0 auto;
+}
 </style>

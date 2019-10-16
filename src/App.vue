@@ -1,20 +1,25 @@
 <template>
   <div id="app">
-    JE SUIS LE APP COMPONENT
     <router-view/>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import VueMaterial from 'vue-material'
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
+
+Vue.use(VueMaterial)
 export default {
   name: 'App',
   data () {
-    return {
-    }
+    return {}
   },
   methods: {},
   created: function () {},
   mounted: function () {},
+  computed: {},
   watch: {}
 }
 </script>
