@@ -1,0 +1,22 @@
+{
+	"file_name":"question.json",
+	"list_question":[
+		{
+			"id":0,
+			"question":{"text":"Quelle est la couleur du cheval blanc d'henri IV ?", "question_type":"ouverte"},
+			"reponse":{"correcte":"marron"}
+		},{
+			"id":1,
+			"question":{"text":"Quelle est la couleur du cheval blanc d'henri IV ?", "question_type":"qcm"},
+			"reponse":{"correcte":["Marron"],"reponses":["Marron","Blanc","Noir","Vert"]}
+		},{
+			"id":2,
+			"question":{"text":"How is this website ?", "question_type":"qcm"},
+			"reponse":{"correcte":["Good","Pretty Good"],"reponses":["Good","Pretty Good","Bad"]}
+		},{
+			"id":3,
+			"question":{"text":"How is this website ?", "question_type":"ouverte"},
+			"reponse":{"correcte":"good"}
+		}
+	]
+}

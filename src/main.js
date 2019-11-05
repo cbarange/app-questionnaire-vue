@@ -7,8 +7,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import CB_Header from './CB_Header' // Component CB_Header [15/10/2019]
-import CB_Footer from './CB_Footer' // Component CB_Footer [15/10/2019]
+import CB_Header from './components/CB_Header' // Component CB_Header [15/10/2019]
+import CB_Footer from './components/CB_Footer' // Component CB_Footer [15/10/2019]
 
 Vue.config.productionTip = false
 
@@ -18,7 +18,8 @@ var cb_vm_app = new Vue({
   router,
   components: { App },
   template: '<App/>',
-  data:{cb_personne: { cb_nom: null, cb_prenom: null, cb_entreprise: null }}
+  data:{cb_personne: { cb_nom: 'jean', cb_prenom: 'bon', cb_entreprise: 'corpo' }}
+  //data:{cb_personne: { cb_nom: null, cb_prenom: null, cb_entreprise: null }}
 })
 
 // Component CB_Header [15/10/2019]

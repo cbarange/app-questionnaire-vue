@@ -18,14 +18,14 @@
 **05 / 11 / 2019**
 > Objectif : Mise en place de sauvegarde des réponses et les rendre consultables par l'administrateur
 
-> Fin de séance :  
+> Fin de séance :  Répondre aux questions et affichage des résultats finaux 
 
 **04 / 12 / 2019**
-> Objectif : 
+> Objectif : Mise en place de sauvegarde des réponses et les rendre consultables par l'administrateur
 
 > Fin de séance :  
 
-## CouchDB
+## CouchDB for Ubuntu 18LTS
 
 ``` bash
 # Start by adding the CouchDB GPG key to your system using the following command

@@ -1,12 +1,12 @@
 <template>
-  <div id="cb_header">
-    JE SUIS LE HEADER COMPONENT
+  <div id="cb_footer">
+    Author : Clément BARANGER
   </div>
 </template>
 
 <script>
 export default {
-  name: 'CB_Header',
+  name: 'CB_Footer',
   data () {
     return {
     }
@@ -19,12 +19,14 @@ export default {
 </script>
 
 <style>
-#cb_header {
+#cb_footer {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: darkgray;
+  width: 95%;
+  margin: 0 auto;
 }
 </style>
