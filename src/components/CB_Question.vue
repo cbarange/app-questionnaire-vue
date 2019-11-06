@@ -33,7 +33,7 @@ export default {
     },
     cb_getResponse: function (cb_d) {
       if(cb_d)
-        cb_correcteAnswer++
+        this.cb_correcteAnswer++
       //else
       this.cb_counter++
     }
@@ -46,7 +46,7 @@ export default {
   watch: {
     cb_counter: function (cb_val) {
       if (this.cb_counter == this.cb_questions.length)
-        this.$router.push('/result')
+        this.$router.push({ path: '/result', query: { score: this.cb_correcteAnswer, total: this.cb_questions.length }})
     },
   }
 }

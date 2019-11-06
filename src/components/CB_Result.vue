@@ -1,6 +1,8 @@
 <template>
   <div id="cb_result">
-    JEAN
+    {{ $root.cb_personne.cb_prenom }} {{ $root.cb_personne.cb_nom }}
+    <p> Vous avez fait un score de </p>
+    <p> {{ score }} / {{ total }} </p>
   </div>
 </template>
 
@@ -8,7 +10,10 @@
 export default {
   name: 'CB_Result',
   data () {
-    return {}
+    return {
+      score: this.$route.query.score,
+      total: this.$route.query.total
+    }
   },
   methods: {},
   created: function () {},
