@@ -1,6 +1,8 @@
 <template>
   <div id="cb_footer">
-    Author : Clément BARANGER
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    Github : <a class="cb_lien" href="https://github.com/cbarange/app-questionnaire-vue">https://github.com/cbarange/app-questionnaire-vue</a>
+    Author : Clément BARANGER 
   </div>
 </template>
 
@@ -8,8 +10,7 @@
 export default {
   name: 'CB_Footer',
   data () {
-    return {
-    }
+    return {}
   },
   methods: {},
   created: function () {},
@@ -18,7 +19,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #cb_footer {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -20,13 +20,19 @@
 
 > Fin de séance :  Répondre aux questions et affichage des résultats finaux 
 
-**04 / 12 / 2019**
+**10 / 11 / 2019**
+> Objectif : Mise en place de sauvegarde des réponses et les rendre consultables par l'administrateur
+
+> Fin de séance :  Affichage de l'interface admin et sauvegarde des réponses dans le base de données local et distante
+
+**17 / 11 / 2019**
 > Objectif : Mise en place de sauvegarde des réponses et les rendre consultables par l'administrateur
 
 > Fin de séance :  
 
 ## CouchDB for Ubuntu 18LTS
 
+Install and Setup CouchDB :
 ``` bash
 # Start by adding the CouchDB GPG key to your system using the following command
 curl -L https://couchdb.apache.org/repo/bintray-pubkey.asc | sudo apt-key add -
@@ -40,10 +46,65 @@ curl http://127.0.0.1:5984/
 # Maybe need to start service
 sudo service couchdb start
 ```
-
 > Use this url to configure DataBase [http://127.0.0.1:5984/_utils/](http://127.0.0.1:5984/_utils/)
 
+> Create database _cb-app-questionnaire_ and create document with file _./ressource/CouchDB_Initdocument.json_
+
 > [Full guide](https://linuxize.com/post/how-to-install-couchdb-on-ubuntu-18-04/)
+
+## PouchDB
+
+Install and Setup PouchDB :
+```bash
+# Install PouchDB
+npm install pouchdb
+# Setup CORS
+npm install -g add-cors-to-couchdb
+add-cors-to-couchdb
+```
+How to use it :
+```js
+import PouchDB from 'pouchdb'
+// Setup PouchDB connection
+var db = new PouchDB('database_name')
+// Setup CouchDB connection
+var db_remote = new PouchDB('http://localhost:5984/cb-app-questionnaire')
+// Push document in CouchDB (local Database)
+db.put(json_document)
+// Pull document from CouchDB (local Database)
+db.get(_idValue)
+// Sync CouchDB (local Database) with PouchDB (Remote Database)
+var sync = db.sync(db_remote, {live: true, retry: true})
+```
+> [PunchDB Guide](https://pouchdb.com/guides/setup-couchdb.html)
+
+> [Sync PunchDB et CouchDB](https://blogtech.soprasteria.com/2016/09/05/synchronisation-multi-client-avec-couchdb-et-pouchdb/)
+
+> [Fix CORS Header error](https://pouchdb.com/errors.html)
+
+## BcryptJs
+
+Install and Setup BcryptJs :
+```bash
+sudo npm install bcryptjs
+```
+How to use it :
+```js
+import bcrypt from 'bcryptjs'
+// Generate random salt and print it
+//var salt = bcrypt.genSaltSync(10)
+//console.log(salt)
+// Result of random salt
+var salt = '$2a$10$gt/8moSeQUxRsy13qbeE4e'
+// Hash of good password, use to compare with user password
+var hash = '$2a$10$gt/8moSeQUxRsy13qbeE4edMnfbhKxIkSDB5NzYkY4BFz12KLn/MS'
+// Generate hash of user password
+var hash2 = bcrypt.hashSync("Password123", salt)
+// Compate hash
+if ( hash2 === hash )
+	console.log('Good Password')
+```
+> [BcryptJs Doc](https://www.npmjs.com/package/bcryptjs)
 
 ## Build Setup
 

@@ -1,0 +1,28 @@
+{
+	"_id": "cb_historique_resultat",
+	"cb_historique_resultat": [
+		{
+			"cb_nom": "bon",
+			"cb_prenom": "jean",
+			"cb_entreprise": "corpo",
+			"cb_participation": 1,
+			"cb_score": 1,
+			"cb_total": 3,
+			"cb_tests":[
+				{"questions":[{"cb_question": "Quelle est la couleur du cheval blanc d'henri IV ?", "cb_reponse": "marron", "cb_correcte": true}]},
+				{"questions":[{"cb_question": "Quelle est la couleur du cheval blanc d'henri IV ?", "cb_reponse": {"correcte":["Marron"],"reponses":["Marron","Blanc","Noir","Vert"]}, "cb_correcte": false}]},
+				{"questions":[{"cb_question": "How is this website ?", "cb_reponse": {"correcte":["Good","Pretty Good"],"reponses":["Good","Pretty Good","Bad"]}, "cb_correcte": false}]}
+			]
+		},
+		{
+			"cb_nom": "Hyve",
+			"cb_prenom": "Michel",
+			"cb_entreprise": "corpo",
+			"cb_participation": 0,
+			"cb_score": 0,
+			"cb_total": 0,
+			"cb_tests":[]
+		},
+	]
+}
+

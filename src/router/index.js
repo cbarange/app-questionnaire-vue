@@ -5,6 +5,7 @@ import Router from 'vue-router'
 import CB_Question from '@/components/CB_Question' // Component pour la gestion des questions [15/10/2019]
 import CB_Register from '@/components/CB_Register' // Component d'accueil du site [15/10/2019]
 import CB_Result from '@/components/CB_Result' // Component pour l'affichage des resultats au test [05/11/2019]
+import CB_Admin from '@/components/CB_Admin' // Component pour l'affichage de l'interface admin [07/11/2019]
 
 Vue.use(Router)
 
@@ -27,6 +28,13 @@ export default new Router({
       path: '/result',
       name: 'CB_Result',
       component: CB_Result
-    }
+    },
+    // Route vers l'affichage de l'interface admin [07/11/2019]
+    {
+      path: '/admin',
+      name: 'CB_Admin',
+      component: CB_Admin
+    },
+    
   ]
 })

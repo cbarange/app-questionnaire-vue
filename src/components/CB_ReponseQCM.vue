@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- eslint-disable-next-line -->
     <md-checkbox v-for="cb_item in cb_response.reponses" v-model="cb_array" :value="cb_item">{{ cb_item }}</md-checkbox>
     <br>
     <md-button class="md-raised md-primary" v-on:click="$emit('cb_nextQuestion', cb_checkResponse())">Suivante →</md-button>
@@ -8,6 +9,7 @@
 
 <script>
 export default {
+  /* eslint-disable */
   name: 'CB_ReponseOuverte',
   props: ['cb_response'],
   data () {
