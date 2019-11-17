@@ -1,28 +1,71 @@
 {
 	"_id": "cb_historique_resultat",
+	"num_question_min": 5,
+	"num_question_sup": 3,
 	"cb_historique_resultat": [
 		{
-			"cb_nom": "bon",
-			"cb_prenom": "jean",
-			"cb_entreprise": "corpo",
+			"cb_nom": "DUPOND",
+			"cb_prenom": "Michel",
+			"cb_entreprise": "Corpo",
 			"cb_participation": 1,
-			"cb_score": 1,
-			"cb_total": 3,
-			"cb_tests":[
-				{"questions":[{"cb_question": "Quelle est la couleur du cheval blanc d'henri IV ?", "cb_reponse": "marron", "cb_correcte": true}]},
-				{"questions":[{"cb_question": "Quelle est la couleur du cheval blanc d'henri IV ?", "cb_reponse": {"correcte":["Marron"],"reponses":["Marron","Blanc","Noir","Vert"]}, "cb_correcte": false}]},
-				{"questions":[{"cb_question": "How is this website ?", "cb_reponse": {"correcte":["Good","Pretty Good"],"reponses":["Good","Pretty Good","Bad"]}, "cb_correcte": false}]}
+			"cb_score": 3,
+			"cb_total": 5,
+			"cb_tests":[{ 
+				"cb_question": "The chemical element Lithium is named after the country of Lithuania.",
+				"cb_reponse": { 
+					"correcte": [ "False" ],
+					"reponses": [ "True", "False" ]
+				},
+				"cb_correcte": true,
+				"cb_date": "12-11-2019",
+				"cb_type_question": "qcm"
+			},{
+				"cb_question": "How many sides does a trapezium have?",
+				"cb_reponse": {
+					"correcte": [ "4" ],
+					"reponses": [ "3", "5", "6", "4" ]
+				},
+				"cb_correcte": true,
+				"cb_date": "12-11-2019" ,
+				"cb_type_question": "qcm"
+			},{
+				"cb_question": "Time on Computers is measured via the EPOX System.",
+				"cb_reponse": {
+					"correcte": [ "False" ],
+					"reponses": [ "True", "False" ]
+				},
+				"cb_correcte": true,
+				"cb_date": "12-11-2019",
+				"cb_type_question": "qcm"
+			},{
+				"cb_question": "Quelle est la couleur du cheval blanc d'henri IV ?",
+				"cb_reponse": {
+					"correcte": [ "Marron" ],
+					"reponses": [ "Marron", "Blanc", "Noir", "Vert" ]
+				},
+				"cb_correcte": false,
+				"cb_date": "12-11-2019",
+				"cb_type_question": "qcm"
+			},{
+				"cb_question": "In PROTOTYPE 2. who is referred to as ?",
+				"cb_reponse": {
+					"correcte": "James Heller"
+				},
+				"cb_correcte": false,
+				"cb_date": "12-11-2019",
+				"cb_type_question": "ouverte"
+			}
 			]
 		},
 		{
-			"cb_nom": "Hyve",
-			"cb_prenom": "Michel",
-			"cb_entreprise": "corpo",
+			"cb_nom": "PETIT",
+			"cb_prenom": "Hyve",
+			"cb_entreprise": "EDF",
 			"cb_participation": 0,
 			"cb_score": 0,
 			"cb_total": 0,
 			"cb_tests":[]
-		},
+		}
 	]
 }
 

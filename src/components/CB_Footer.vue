@@ -2,7 +2,7 @@
   <div id="cb_footer">
     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
     Github : <a class="cb_lien" href="https://github.com/cbarange/app-questionnaire-vue">https://github.com/cbarange/app-questionnaire-vue</a>
-    Author : Clément BARANGER 
+    Author : Clément BARANGER
   </div>
 </template>
 

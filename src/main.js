@@ -6,7 +6,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+// On utilise 3 root, cela permet de ne pas avoir a importer les component Header et Footer dans la parti app [17/11/2019]
 import CB_Header from './components/CB_Header' // Component CB_Header [15/10/2019]
 import CB_Footer from './components/CB_Footer' // Component CB_Footer [15/10/2019]
 

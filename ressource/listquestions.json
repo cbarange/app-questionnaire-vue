@@ -1,0 +1,92 @@
+{"response_code":0,"results":[
+	{
+		"category":"History",
+		"type":"multiple",
+		"difficulty":"medium",
+		"question":"The seed drill was invented by which British inventor?",
+		"correct_answer":"Jethro Tull",
+		"incorrect_answers":["Charles Babbage","Isaac Newton","J.J Thomson"]
+	},{
+		"category":"Entertainment: Film",
+		"type":"multiple",
+		"difficulty":"easy",
+		"question":"Who starred as Bruce Wayne and Batman in Tim Burton&#039;s 1989 movie &quot;Batman&quot;?",
+		"correct_answer":"Michael Keaton",
+		"incorrect_answers":["George Clooney","Val Kilmer","Adam West"]
+	},{
+		"category":"Entertainment: Music",
+		"type":"multiple",
+		"difficulty":"easy",
+		"question":"Which Canadian reggae musician had a 1993 hit with the song &#039;Informer&#039;?",
+		"correct_answer":"Snow",
+		"incorrect_answers":["Rain","Hail","Sleet"]
+	},{
+		"category":"Entertainment: Film",
+		"type":"boolean",
+		"difficulty":"easy",
+		"question":"Leonardo DiCaprio won an Oscar for Best Actor in 2004&#039;s &quot;The Aviator&quot;.",
+		"correct_answer":"False",
+		"incorrect_answers":["True"]
+	},{
+		"category":"Science: Computers",
+		"type":"boolean","difficulty":"easy",
+		"question":"The logo for Snapchat is a Bell.",
+		"correct_answer":"False",
+		"incorrect_answers":["True"]
+	},{
+		"category":"General Knowledge",
+		"type":"multiple",
+		"difficulty":"easy",
+		"question":"What is the name of the Jewish New Year?",
+		"correct_answer":"Rosh Hashanah",
+		"incorrect_answers":["Elul","New Year","Succoss"]
+	},{
+		"category":"Science & Nature",
+		"type":"multiple",
+		"difficulty":"medium",
+		"question":"The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
+		"correct_answer":"low, all",
+		"incorrect_answers":["low, some","high, all","high, some"]
+	},{
+		"category":"General Knowledge",
+		"type":"multiple",
+		"difficulty":"medium",
+		"question":"What is a &quot;dakimakura&quot;?",
+		"correct_answer":"A body pillow",
+		"incorrect_answers":["A Chinese meal, essentially composed of fish","A yoga posture","A word used to describe two people who truly love each other"]
+	},{
+		"category":"Entertainment: Music",
+		"type":"multiple",
+		"difficulty":"medium",
+		"question":"EDM producer Marshmello performs live wearing clothes and a marshmallow mask of what colour?",
+		"correct_answer":"White",
+		"incorrect_answers":["Black","Blue","Yellow"]
+	},{
+		"category":"Entertainment: Japanese Anime & Manga",
+		"type":"multiple",
+		"difficulty":"easy",
+		"question":"Who was given the title &quot;Full Metal&quot; in the anime series &quot;Full Metal Alchemist&quot;?",
+		"correct_answer":"Edward Elric",
+		"incorrect_answers":["Alphonse Elric","Van Hohenheim","Izumi Curtis"]
+	},{
+		"category":"Entertainment: Video Games",
+		"type":"multiple",
+		"difficulty":"medium",
+		"question":"What is the name the location-based augmented reality game developed by Niantic before Pok&eacute;mon GO?",
+		"correct_answer":"Ingress",
+		"incorrect_answers":["Aggress","Regress","Digress"]
+	},{
+		"category":"General Knowledge",
+		"type":"multiple","difficulty":"hard",
+		"question":"The Swedish word &quot;Grunka&quot; means what in English?",
+		"correct_answer":"Thing",
+		"incorrect_answers":["People","Place","Pineapple"]
+	},{
+		"category":"Entertainment: Film",
+		"type":"boolean",
+		"difficulty":"easy",
+		"question":"Shaquille O&#039;Neal appeared in the 1997 film &quot;Space Jam&quot;.",
+		"correct_answer":"False",
+		"incorrect_answers":["True"]
+	},{
+		"category":"Animals","type":"boolean","difficulty":"medium","question":"The average lifespan of a wildcat is only around 5-6 years. ","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"Who was the main antagonist of Max Payne 3 (2012)?","correct_answer":"Victor Branco","incorrect_answers":["&Aacute;lvaro Neves","Armando Becker","Milo Rego"]},{"category":"Science: Gadgets","type":"boolean","difficulty":"medium","question":"The Western Electric Model 500 telephone uses tone dialing to dial phone numbers.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Geography","type":"boolean","difficulty":"easy","question":"Toronto is the capital city of the North American country of Canada.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Science & Nature","type":"boolean","difficulty":"medium","question":"Centripedal force is an apparent force that acts outward on a body moving around a center, arising from the body&#039;s inertia.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"Who is the leader of Team Instinct in Pok&eacute;mon Go?","correct_answer":"Spark","incorrect_answers":["Candela","Blanche","Willow"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"In PROTOTYPE 2. who is referred to as &quot;Tango Primary&quot;?","correct_answer":"James Heller","incorrect_answers":["Alex Mercer","Dana Mercer","Any Goliaths roaming around"]},{"category":"History","type":"multiple","difficulty":"medium","question":"What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?","correct_answer":"The Columbian Exchange","incorrect_answers":["Triangle Trade","Transatlantic Slave Trade","The Silk Road"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"In what year was the first &quot;Mass Effect&quot; game released?","correct_answer":"2007","incorrect_answers":["2008","2009","2010"]},{"category":"History","type":"boolean","difficulty":"hard","question":"The Battle of Trafalgar took place on October 23rd, 1805","correct_answer":"False","incorrect_answers":["True"]},{"category":"Science: Computers","type":"boolean","difficulty":"easy","question":"Time on Computers is measured via the EPOX System.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Science & Nature","type":"multiple","difficulty":"easy","question":"How many chromosomes are in your body cells?","correct_answer":"23","incorrect_answers":["21","22","24"]},{"category":"Science: Computers","type":"multiple","difficulty":"medium","question":"How fast is USB 3.1 Gen 2 theoretically?","correct_answer":"10 Gb\/s","incorrect_answers":["5 Gb\/s","8 Gb\/s","1 Gb\/s"]},{"category":"Entertainment: Music","type":"multiple","difficulty":"medium","question":"Which of these is not an Ed Sheeran album?","correct_answer":"-","incorrect_answers":["+","X","&divide;"]},{"category":"Science: Computers","type":"boolean","difficulty":"medium","question":"The first dual-core CPU was the Intel Pentium D.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Sports","type":"multiple","difficulty":"easy","question":"What team won the 2016 MLS Cup?","correct_answer":"Seattle Sounders","incorrect_answers":["Colorado Rapids","Toronto FC","Montreal Impact"]},{"category":"Mythology","type":"multiple","difficulty":"medium","question":"According to the Egyptian Myth of Osiris, who murdered Osiris?","correct_answer":"Set","incorrect_answers":["Horus","Ra","Anhur"]},{"category":"Entertainment: Books","type":"multiple","difficulty":"medium","question":"Which of these book series is by James Patterson?","correct_answer":"Maximum Ride","incorrect_answers":["Harry Potter","The Legend of Xanth","The Bartemaeus Trilogy"]},{"category":"Entertainment: Books","type":"multiple","difficulty":"medium","question":"In the &quot;Harry Potter&quot; novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?","correct_answer":"Answer a riddle","incorrect_answers":["Rhythmically tap barrels with a wand","Speak a password","Knock in sequence"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"medium","question":"Which operation in &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; introduced the &quot;Skyscraper&quot; map?","correct_answer":"Red Crow","incorrect_answers":["Velvet Shell","Skull Rain","Dust Line"]},{"category":"Science & Nature","type":"boolean","difficulty":"hard","question":"The chemical element Lithium is named after the country of Lithuania.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"easy","question":"The characters of &quot;Log Horizon&quot; are trapped in what game?","correct_answer":"Elder Tale","incorrect_answers":["Sword Art Online","Tower Unite","Yggdrasil"]},{"category":"Entertainment: Japanese Anime & Manga","type":"multiple","difficulty":"medium","question":"Krusty is the guild master of which guild in &quot;Log Horizon&quot;?","correct_answer":"D. D. D","incorrect_answers":["Silver Sword","West Wind Brigade","Oceanic Systems (Marine Agency)"]},{"category":"Vehicles","type":"multiple","difficulty":"easy","question":"The LS3 engine is how many cubic inches?","correct_answer":"376","incorrect_answers":["346","364","427"]},{"category":"Vehicles","type":"multiple","difficulty":"hard","question":"Which Audi does not use Haldex based all wheel drive system?","correct_answer":"Audi A8","incorrect_answers":["Audi TT","Audi S3","Audi A3"]},{"category":"History","type":"multiple","difficulty":"medium","question":"In what year did the Berlin Wall fall?","correct_answer":"1989","incorrect_answers":["1987","1991","1993"]},{"category":"Entertainment: Music","type":"multiple","difficulty":"medium","question":"Which of these is not a single by Pink Floyd guitarist, David Gilmour?","correct_answer":"Sunset Strip","incorrect_answers":["Rattle That Lock","Blue Light","Arnold Layne"]},{"category":"Science & Nature","type":"multiple","difficulty":"hard","question":"How long is a light-year?","correct_answer":"9.461 Trillion Kilometres","incorrect_answers":["1 AU","105.40 Earth-years","501.2 Million Miles"]},{"category":"Entertainment: Film","type":"multiple","difficulty":"hard","question":"What is the species of the &quot;Predator&quot; in the 1987 movie &quot;Predator&quot;?","correct_answer":"Yautja","incorrect_answers":["Xenomorph","Praetorian","Phocrex"]},{"category":"Geography","type":"boolean","difficulty":"easy","question":"Nova Scotia is on the east coast of Canada.","correct_answer":"True","incorrect_answers":["False"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"In CoD: Black Ops III, what is the name of the rogue A.I. antagonist?","correct_answer":"Corvus","incorrect_answers":["Cabal","Legion","Icarus"]},{"category":"Entertainment: Television","type":"multiple","difficulty":"hard","question":"Which former Coronation Street actress was once a hostess on the British Game Show &quot;Double Your Money&quot;?","correct_answer":"Amanda Barrie","incorrect_answers":["Sue Nicholls","Violet Carson","Jean Alexander"]},{"category":"Animals","type":"boolean","difficulty":"medium","question":"Tigers have one colour of skin despite the stripey fur.","correct_answer":"False","incorrect_answers":["True"]},{"category":"Entertainment: Cartoon & Animations","type":"multiple","difficulty":"medium","question":"Who voiced Finn in Adventure Time?","correct_answer":"Jeremy Shada","incorrect_answers":["Nolan North","John DiMaggio","Tom Kenny"]},{"category":"Science: Mathematics","type":"multiple","difficulty":"easy","question":"How many sides does a trapezium have?","correct_answer":"4","incorrect_answers":["3","5","6"]},{"category":"Entertainment: Film","type":"multiple","difficulty":"easy","question":"Who directed the Kill Bill movies?","correct_answer":"Quentin Tarantino","incorrect_answers":["Arnold Schwarzenegger","David Lean","Stanley Kubrick"]},{"category":"Entertainment: Video Games","type":"multiple","difficulty":"easy","question":"In Counter-Strike: Global Offensive, what&#039;s the rarity of discontinued skins called?","correct_answer":"Contraband","incorrect_answers":["Discontinued","Diminshed","Limited"]}]}

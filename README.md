@@ -28,7 +28,13 @@
 **17 / 11 / 2019**
 > Objectif : Mise en place de sauvegarde des réponses et les rendre consultables par l'administrateur
 
-> Fin de séance :  
+> Fin de séance : Possibilité de supprimer les utilisateurs, et possibilité de changer le nombre de question par test dans le fichier de la base de données
+
+## Liste de questions
+
+La liste des questions est issue d'une API : [https://opentdb.com/api_config.php](https://opentdb.com/api_config.php)
+
+Pour adapter la structure renvoyée par l'API avec la structure attendu par l'application, on utilise un script Python _./ressource/QuestionParser.py_
 
 ## CouchDB for Ubuntu 18LTS
 
@@ -60,20 +66,23 @@ Install and Setup PouchDB :
 npm install pouchdb
 # Setup CORS
 npm install -g add-cors-to-couchdb
-add-cors-to-couchdb
+add-cors-to-couchdb http://127.0.0.1:5984/ -u admin -p password
+# Add plugin
+npm install pouchdb-upsert
 ```
 How to use it :
 ```js
 import PouchDB from 'pouchdb'
-// Setup PouchDB connection
+PouchDB.plugin(require('pouchdb-upsert'))
+// Setup PouchDB connection (local database)
 var db = new PouchDB('database_name')
-// Setup CouchDB connection
+// Setup CouchDB connection (remote database)
 var db_remote = new PouchDB('http://localhost:5984/cb-app-questionnaire')
-// Push document in CouchDB (local Database)
+// Push document in PouchDB (local Database)
 db.put(json_document)
-// Pull document from CouchDB (local Database)
+// Pull document from PouchDB (local Database)
 db.get(_idValue)
-// Sync CouchDB (local Database) with PouchDB (Remote Database)
+// Sync PouchDB (local Database) with CouchDB (remote Database)
 var sync = db.sync(db_remote, {live: true, retry: true})
 ```
 > [PunchDB Guide](https://pouchdb.com/guides/setup-couchdb.html)
